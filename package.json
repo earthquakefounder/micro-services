@@ -1,0 +1,21 @@
+{
+  "name": "micro-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./**/*.spec.js --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^0.6.1",
+    "express": "^4.16.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^4.0.1",
+    "proxyquire": "^1.8.0"
+  }
+}
